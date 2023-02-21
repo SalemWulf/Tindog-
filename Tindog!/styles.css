@@ -1,0 +1,197 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+}
+
+h1 {
+    margin-left: 100px;
+}
+
+h3,
+h6 {
+    font-size: 50px !important;
+}
+
+
+.navbar-brand {
+    font-size: 60px !important;
+    margin-left: 220px;
+}
+
+a {
+    font-family: 'Playfair Display', serif;
+}
+
+.phone {
+    width: 90%;
+    transform: translate(30px, 20px) rotate(20deg);
+}
+
+.nav-item {
+    margin-right: 40px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.title3 {
+    font-size: 90px;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+button {
+    margin-right: 40px !important;
+}
+
+.features {
+    background-color: white;
+    height: 350px;
+    text-align: center;
+}
+
+.feature-text {
+    color: #636262;
+}
+
+.fa-solid {
+    color: #0073d8;
+    font-size: 60px;
+}
+
+.fa-solid:hover {
+    color: #5d8eef;
+}
+
+.feature1 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.c1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.carousel-item {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+p,
+li {
+    font-family: 'Playfair Display', serif;
+}
+
+.c2 {
+    color: white;
+    font-size: 20px;
+}
+
+.images {
+    margin-bottom: 100px;
+}
+
+.card1 {
+    margin-top: 200px;
+    background-color: white;
+    height: 800px;
+}
+
+.card2 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.card {
+    text-align: center;
+}
+
+.CTA {
+    height: 400px;
+    text-align: center;
+    padding-top: 150px;
+
+}
+
+.Footer {
+    background-color: white;
+    height: 300px;
+    text-align: center;
+    padding: 100px;
+}
+
+.bottom {
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+    opacity: 0.7;
+}
+
+.pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+    .pricing .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .pricing .card:hover .btn {
+        opacity: 1;
+    }
+}
